@@ -6,7 +6,7 @@
 
 import numpy
 import math
-initial_population=10
+initial_population=1000
 number_of_parents=(initial_population/2)
 number_of_parents=int(number_of_parents)
 
@@ -247,7 +247,7 @@ print("The width of the qwt is: ",Wqwt)
 lam_g=la/(numpy.sqrt(ef))
 lqwt=lam_g/4;
 print("The length of the qwt is: ",lqwt)
-
+print ("The gap between patch : ",la/2)
 
 # In[ ]:
 
